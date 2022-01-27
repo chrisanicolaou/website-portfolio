@@ -5,28 +5,33 @@
     font-family: "Montserrat", sans-serif;
 }
 
-nav ul {
-    background-color: #b2a5e6;
-    display: -webkit-flex;
-    display: flex;
-    height: 5%;
-    width: 100%;
-    margin: 0;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-}
+@media (min-width: 900px) {
+    nav ul {
+        background-color: #b2a5e6;
+        display: -webkit-flex;
+        display: flex;
+        height: 5%;
+        width: 100%;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
 
-.navlinks {
-    flex-flow: row wrap;
-    justify-content: space-around;
-    list-style-type: none;
-    margin: auto;
-}
+    .navlinks {
+        flex-flow: row wrap;
+        justify-content: space-around;
+        list-style-type: none;
+        margin: auto;
+        font-weight: bold;
+        font-size: 100%;
+        padding-right: 15%;
+    }
 
-.navsocials {
-    list-style-type: none;
-    padding: 0.2%;
-    margin: 0;
+    .navsocials {
+        list-style-type: none;
+        padding: 0.2%;
+        margin: 0;
+    }
 }
